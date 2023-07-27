@@ -26,7 +26,7 @@
             <div class="navbar bg-[#F85559] rounded-full">
                 <div class="navbar-start">
                     <div>
-                        <ul class="flex gap-.75 lg:gap-3 w-full text-white pl:2 lg:pl-12">
+                        <ul class="flex md:flex-row gap-.75 md:gap-3 w-full text-white pl:2 md:pl-12">
                             <li><a>Home</a></li>
                             <li><a>About us</a></li>
                             <li><a>Shop</a></li>
@@ -38,7 +38,8 @@
                     <img class="w-13 h-14" src="/images/logo.png" alt="">
                   <a class="btn btn-ghost normal-case font-normal lg:font-bold text-xl text-white">Fruit Burst</a>
                 </div>
-                <div class="navbar-end relative pr-3 lg:pr-8">
+                
+                <div class="navbar-end  relative pr-3 lg:pr-8">
                   <input type="text" placeholder="Search here" class="rounded-full pt-.5 lg:pt-2 pb-.5 lg:pb-2 pl-2 lg:pl-6">
                   <div class="absolute pr-1 lg:pr-3">
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -90,8 +91,8 @@
                     </div>
                   </div>   
                 </div>
-                <div class="w-5/6 rounded-lg bg-[#FFF] absolute inset-x-20 -bottom-12 h-auto shadow-lg ">
-                    <div class="flex justify-center text-center gap-10 items-center pl-12 pr-12 pt-10 pb-10 ">
+                <div class="w-full md:w-5/6 rounded-lg bg-[#FFF] relative md:absolute inset-x-0 md:inset-x-20 bottom-12 md:-bottom-12 h-auto shadow-lg ">
+                    <div class="flex justify-center text-center gp-4 md:gap-10 items-center pl-4 md:pl-12 pr-4 md:pr-12 pt-3 md:pt-10 pb-3 md:pb-10 ">
                         <div>
                             <img src="./images/fruit1.png" alt="">
                             <p class="">Strawberry</p>
@@ -120,33 +121,33 @@
     <main class="container mx-auto">
         <section class="mt-60">
             <div>
-                <div class="flex justify-around items-center">
+                <div class="flex flex-col md:flex-row lg:flex-row justify-center md:justify-around items-center">
                     <div>
-                        <h3 class="text-5xl font-extrabold ">Deal of the day</h3>
-                        <p class="text-base font-medium w-1/2 text-[#12121299] mt-10">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <h3 class="text-3xl md:text-5xl font-bold md:font-extrabold ">Deal of the day</h3>
+                        <p class="text-base font-medium w-3/4 md:w-1/2 text-[#12121299] mt-10">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                     </div>
                     <div class="flex basis-24">
                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                         <div class="flex flex-col">
-                          <span class="countdown font-bold text-5xl">
+                          <span class="countdown font-bold text-3xl md:text-5xl">
                             <span style="--value:15;"></span> :
                           </span>
                           days
                         </div> 
                         <div class="flex flex-col">
-                          <span class="countdown font-bold text-5xl">
+                          <span class="countdown font-bold text-3xl md:text-5xl">
                             <span style="--value:10;"></span> :
                           </span>
                           hours
                         </div> 
                         <div class="flex flex-col">
-                          <span class="countdown font-bold text-5xl">
+                          <span class="countdown font-bold text-3xl md:text-5xl">
                             <span style="--value:24;"></span> :
                           </span>
                           min
                         </div> 
                         <div class="flex flex-col">
-                          <span class="countdown font-bold text-5xl">
+                          <span class="countdown font-bold text-3xl md:text-5xl">
                             <span style="--value:39;"></span>
                           </span>
                           sec
@@ -154,7 +155,7 @@
                       </div>
                 </div>   
             </div>
-            <div class="mt-10 flex gap-4 justify-around w-full">
+            <div class="mt-10 flex flex-col md:flex-row lg:flex-row gap-4 justify-around w-full">
                 <div class="card w-full bg-[#FFF] shadow-xl border-solid border-2 rounded-lg">
                     <figure class="px-10 pt-10">
                       <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
@@ -410,13 +411,13 @@
         <section class="mt-20 ">
             <div class="relative rounded-lg">
                 <div  class="w-full h-full">
-                    <img class="w-full h-full" src="./images/banner1.png" alt="">
-                    <div class="h-full w-full rounded-lg  absolute inset-x-0 inset-y-0 backdrop-brightness-50">
+                    <img class="w-full h-full " src="./images/banner1.png" alt="">
+                    <div class=" h-full w-full rounded-lg relative md:absolute inset-0 md:inset-x-0 md:inset-y-0 backdrop-brightness-50">
                         <div class="text-white text-center items-center">
-                            <h2 class="text-4xl font-bold mb-5 mt-10">Meet the team section</h2>
-                            <p class="text-base font-medium" >Contrary to popular belief, is not simply random text. It has roots in a piece of classical 
+                            <h2 class="text-2xl md:text-4xl font-bold mb-1 md:mb-5 mt-2 md:mt-10">Meet the team section</h2>
+                            <p class="text-sm md:text-base font-medium" >Contrary to popular belief, is not simply random text. It has roots in a piece of classical 
                                 <br>Latin literature from 45 BC, making it over 2000 years old.</p>
-                                <div class="flex mt-10 gap-10 justify-center">
+                                <div class=" flex mt-0 md:mt-10 gap-3 md:gap-12 justify-center items-center">
                                     <div>
                                         <img src="./images/member1.png" alt="">
                                         <h3>Awlad Hossain</h3>
@@ -464,8 +465,8 @@
                 <h3 class="text-[#121212] pt-30 pb-5 font-extrabold text-4xl">Why Choose Us</h3>
                 <p class="text-base font-medium pb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
                     <br> Latin literature from 45 BC, making it over 2000 years old.</p>
-                <div class="flex items-center">
-                <div class="text-left pr-10">
+                <div class="flex flex-col md:flex-row items-center">
+                <div class="text-left pr-10 order-2 md:order-1">
                     <div>
                         <h3 class="font-extrabold pl-6 " >Dedicated Team</h3>
                         <div class="flex items-center">
@@ -491,8 +492,8 @@
                         <p class="text-base font-medium pl-6 pb-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                     </div>
                 </div>
-                <div class="items-center"><img src="./images/whychoose1.png" alt=""></div>
-                <div class="text-right h-1/2 pl-10">
+                <div class="items-center order-1 md:order-2"><img src="./images/whychoose1.png" alt=""></div>
+                <div class="text-right h-1/2 pl-10 order-3">
                     <div>
                         <h2 class="font-extrabold pr-6">Integrated Supplier</h2>
                         <div class="flex items-center ">
